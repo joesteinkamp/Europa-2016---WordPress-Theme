@@ -701,6 +701,9 @@ textarea:focus {
 .search-form {
 	position: relative;
 }
+	.search .search-form {
+		margin-bottom: 3.5em;
+	}
 
 input[type="search"].search-field {
 	border-radius: 2px 0 0 2px;
