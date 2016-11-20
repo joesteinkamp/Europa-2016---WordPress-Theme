@@ -3106,7 +3106,9 @@ p > video {
 		margin: 0 auto;
 		width: 70%;
 	}
-		.page-template-page-sidebar .site-content, .blog .site-content {
+		.page-template-page-sidebar .site-content, 
+		.blog .site-content,
+		.post-type-archive-jetpack-portfolio .site-content {
 			width: 100%;		
 		}
 
@@ -3742,10 +3744,6 @@ p > video {
 		 border-top: 1px solid #efefef;	
 	 }
 
-.post-type-archive-jetpack-portfolio .site-main {
-	
-}
-
 @media screen and (min-width: 44.375em) {
 
 	.grid > article {
@@ -3772,11 +3770,6 @@ p > video {
 @media screen and (min-width: 80em) {
 	.post-type-archive-jetpack-portfolio .site-main {
 		margin-left: 0;
-	}
-	.post-type-archive-jetpack-portfolio .content-area {
-		margin-right: 0;
-		width: 100%;
-		float: none;
 	}
 
 	.grid article {
