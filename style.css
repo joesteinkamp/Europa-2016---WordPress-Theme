@@ -829,9 +829,11 @@ a:active {
 
 .main-navigation a:hover,
 .main-navigation a:focus {
-	color: #007acc;
+	
 }
 
+.main-navigation a:hover,
+.main-navigation a:focus,
 .main-navigation .current-menu-item > a,
 .main-navigation .current-menu-ancestor > a {
 	border-bottom: 3px solid #ffffff;
@@ -865,11 +867,6 @@ a:active {
 
 	.main-navigation .primary-menu > li {
 		float: left;
-	}
-
-	.main-navigation li:hover > a,
-	.main-navigation li.focus > a {
-		color: #007acc;
 	}
 
 	.main-navigation ul ul {

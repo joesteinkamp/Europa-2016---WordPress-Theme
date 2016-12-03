@@ -540,9 +540,12 @@ function twentysixteen_get_color_scheme_css( $colors ) {
 		color: {$colors['header_text_color']};
 	}
 
+	.main-navigation a:hover,
+	.main-navigation a:focus,
 	.main-navigation .current-menu-item > a,
 	.main-navigation .current-menu-ancestor > a,
 	.social-navigation a {
+		color: {$colors['header_text_color']};
 		border-color: {$colors['header_text_color']};
 	}
 
@@ -1321,9 +1324,12 @@ function twentysixteen_header_text_color_css() {
 			color: %1$s;
 		}
 
+		.main-navigation a:hover,
+		.main-navigation a:focus,
 		.main-navigation .current-menu-item > a,
 		.main-navigation .current-menu-ancestor > a,
 		.social-navigation a {
+			color: %1$s;
 			border-color: %1$s;
 		}
 	';
