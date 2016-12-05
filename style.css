@@ -1631,7 +1631,7 @@ blockquote:after,
 
 .site-inner {
 	margin: 0 auto;
-	max-width: 1320px;
+	max-width: 1440px;
 	position: relative;
 }
 
@@ -1666,14 +1666,12 @@ blockquote:after,
 	background: #ffffff;
 }
 
-.header-container, .site-header-main-detailed {
+.header-container, .site-header-main-detailed, .site-header-main {
 	margin: 0 auto;
-	max-width: 1320px;
+	max-width: 1440px;
 }
 
 .site-header-main {
-	max-width: 1320px;
-	margin: 0 auto;
 	padding: 0 7.6923%;
 	text-align: center;
 }
@@ -1725,7 +1723,6 @@ blockquote:after,
 .site-description {
 	margin: 0 auto;
     padding: 1em 7.6923% 0.5em;
-    max-width: 1320px;
 	color: #ffffff;
 	font-family: Roboto, "Helvetica Neue", sans-serif;
 	font-weight: 700;
@@ -1753,7 +1750,6 @@ blockquote:after,
 .site-main-navigation {
 	margin: 0 auto;
 	padding: 0 7.6923%;
-	max-width: 1320px;
 }
 
 .main-navigation {
