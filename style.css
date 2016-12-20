@@ -820,8 +820,8 @@ a:active {
 	color: #ffffff;
 	display: block;
 	line-height: 1.3125;
-	font-size: 14px;
-	font-size: 0.9rem;
+	font-size: 17.5px;
+	font-size: 1.1rem;
 	outline-offset: -8px;
 	padding: 0.65625em 0.25em 0.1em 0.25em;
 	white-space: nowrap;
@@ -2873,11 +2873,6 @@ p > video {
 		padding: 0 0.4em;
 	}
 
-	.main-navigation a {
-		font-size: 16px;
-		font-size: 1rem;
-	}
-
 	.site-description {
 		display: block;
 		clear: both;
@@ -3083,7 +3078,7 @@ p > video {
 	}
 
 	.main-navigation {
-		padding-right: 1.75em;
+		padding-right: 0.75em;
 	}
 
 	.social-navigation {
@@ -3415,6 +3410,9 @@ p > video {
 		padding: 0 0.5em;
 	}
 
+	.main-navigation {
+		padding-right: 1.75em;
+	}
 	.main-navigation a {
 		font-size: 19px;
 		font-size: 1.2rem;
