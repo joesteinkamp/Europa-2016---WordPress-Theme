@@ -3440,6 +3440,10 @@ p > video {
 		margin-bottom: 1.05em;
 	}
 
+		.grid .entry-title {
+			font-size: 2rem;
+		}
+
 	.format-aside .entry-title,
 	.format-image .entry-title,
 	.format-video .entry-title,
