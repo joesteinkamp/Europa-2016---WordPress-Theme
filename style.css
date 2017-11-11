@@ -1638,7 +1638,7 @@ blockquote:after,
 .site-content {
 	word-wrap: break-word;
 	font-size: 18px;
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 }
 
 /* Do not show the outline on the skip link target. */
@@ -2612,11 +2612,12 @@ p > video {
 
 .wp-caption .wp-caption-text {
 	color: #686868;
-	font-size: 13px;
-	font-size: 0.8125rem;
+	font-size: 16px;
+	font-size: 1rem;
 	font-style: italic;
 	line-height: 1.6153846154;
 	padding-top: 0.5384615385em;
+	text-align: center;
 }
 
 
